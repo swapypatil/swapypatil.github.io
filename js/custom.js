@@ -98,7 +98,19 @@ $(function() {
 
     });
 
+    // Tabs2
+    $(".tabs-icon2").on("click", "li", function() {
 
+        var myID = $(this).attr("id");
+
+        $(this).addClass("active").siblings().removeClass("active");
+
+        $(".tabs2 .item2").hide();
+
+        $("#" + myID + "-content").fadeIn();
+
+    });
+    
     // progress bar
     wind.on('scroll', function() {
         $(".skills-progress span").each(function() {
