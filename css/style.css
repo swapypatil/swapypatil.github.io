@@ -497,6 +497,10 @@ p {
     display: block;
 }
 
+.resume .resume-content .inactive {
+    display: none;
+}
+
 .resume .resume-content li {
     border-left: 1px solid #f4f4f4;
     padding-left: 50px;
