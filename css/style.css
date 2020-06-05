@@ -374,10 +374,6 @@ p {
     font-size: 16px;
 }
 
-.hero .hero-content .social-icon {
-    margin-top: 30px;
-}
-
 .hero .hero-content .social-icon span {
     width: 40px;
     height: 40px;
@@ -411,7 +407,7 @@ p {
     width: 90%;
     height: 4px;
     position: relative;
-    background: #f4f4f4;
+    background: rgb(197, 195, 195);
 }
 
 .hero .skills .skills-progress span {
@@ -425,7 +421,7 @@ p {
 }
 
 .hero .skills .skills-progress span:after {
-    content: attr(data-value);
+    /*content: attr(data-value);*/
     position: absolute;
     right: -10px;
     top: -15px;
@@ -1060,6 +1056,7 @@ p {
 .img-proj{
     height: 5cm;
     width: 5cm;
+    border-radius: 25px;
 }
 
 #myCarousel{
@@ -1070,7 +1067,7 @@ p {
 }
 
 .slidetext{
-    padding-top: 120px;
+    padding-top: 80px;
     padding-left: 30px;
 }
 
