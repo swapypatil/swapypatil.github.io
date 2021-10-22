@@ -67,7 +67,7 @@ $(function() {
 
     // typejs
     $('.header .caption h3').typed({
-        strings: ["Web Developer", "Android Developer", "UI/UX  Designer", "Blockchain Enthusiast", "Cloud Computing Enthusiast"],
+        strings: ["Software Engineer", "Web Developer", "Android Developer", "Data Enthusiast", "Blockchain Enthusiast", "Cloud Enthusiast"],
         loop: true,
         startDelay: 1000,
         backDelay: 1000,
